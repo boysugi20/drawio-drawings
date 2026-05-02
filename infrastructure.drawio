@@ -280,6 +280,31 @@
         <mxCell id="Tit254uEpL4SJPk85VVh-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px; font-weight: 700; text-align: left;&quot;&gt;postgres-ha&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: left;&quot;&gt;(VPS Finansipedia)&lt;/span&gt;" vertex="1">
           <mxGeometry height="40" width="100" x="300" y="500" as="geometry" />
         </mxCell>
+        <mxCell id="Tit254uEpL4SJPk85VVh-13" edge="1" parent="1" source="Tit254uEpL4SJPk85VVh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Tit254uEpL4SJPk85VVh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Tit254uEpL4SJPk85VVh-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px; font-weight: 700; text-align: left;&quot;&gt;caddy&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: left;&quot;&gt;(VPS Finansipedia)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="50" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Tit254uEpL4SJPk85VVh-15" parent="1" style="text;whiteSpace=wrap;fontFamily=Verdana;fontSize=7;align=center;" value="failover" vertex="1">
+          <mxGeometry height="20" width="140" x="150" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Tit254uEpL4SJPk85VVh-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: left;&quot;&gt;&lt;b&gt;index-alpha-fe&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: left;&quot;&gt;(Homelab)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="300" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Tit254uEpL4SJPk85VVh-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: left;&quot;&gt;&lt;b&gt;index-alpha-fe&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: left;&quot;&gt;(VPS Finansipedia)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="100" x="300" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="Tit254uEpL4SJPk85VVh-19" edge="1" parent="1" source="Tit254uEpL4SJPk85VVh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Tit254uEpL4SJPk85VVh-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="590" />
+              <mxPoint x="225" y="640" />
+            </Array>
+            <mxPoint x="290" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
