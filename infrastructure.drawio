@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="EqAcxWxWpPEczBTcAObV">
-    <mxGraphModel dx="1987" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1634" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -610,6 +610,42 @@
         </mxCell>
         <mxCell id="WpdMlJstvHm9ZNoYr1lo-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB570;strokeColor=#000000;" value="&lt;span style=&quot;font-family: Verdana; font-size: 8px; text-align: left;&quot;&gt;VPS - Tencent 01&lt;/span&gt;" vertex="1">
           <mxGeometry height="37.5" width="120" x="1180" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-122" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="250" width="180" x="-740" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-123" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=light-dark(#000000,#9577A3);fillColor=#e1d5e7;align=center;verticalAlign=middle;rounded=0;fontFamily=Verdana;fontSize=8;fontStyle=1" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Homelab (Proxmox)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="180" x="-740" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-124" edge="1" parent="1" source="WpdMlJstvHm9ZNoYr1lo-123" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" target="WpdMlJstvHm9ZNoYr1lo-123" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-520" y="120" as="sourcePoint" />
+            <mxPoint x="-470" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-125" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;VM 100&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-710" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-126" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px; color: rgb(77, 77, 77);&quot; face=&quot;Verdana&quot;&gt;prefect worker&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-710" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;VM 102&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-710" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-128" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px; color: rgb(77, 77, 77);&quot; face=&quot;Verdana&quot;&gt;ubuntu docker&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-710" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-129" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;VM 104&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-710" y="192.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font color=&quot;#4d4d4d&quot; face=&quot;Verdana&quot;&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;windows personal&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-710" y="212.5" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-131" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-family: Verdana; font-size: 8px;&quot;&gt;VM 501&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-710" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WpdMlJstvHm9ZNoYr1lo-132" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 8px; color: rgb(77, 77, 77);&quot; face=&quot;Verdana&quot;&gt;openclaw GUI&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="-710" y="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
